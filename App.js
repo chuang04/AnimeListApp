@@ -1,13 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-var express = require('express')
-var app = express()
+var express = require('express');
+var app = express();
 
-
-app.get('/',(req,res) => {
-  res.send('hello world')
-})
 
 export default function App() {
   return (
